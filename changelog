@@ -1,3 +1,14 @@
+thinkfan (1.0.1-0) unstable; urgency=medium
+
+  * Update for GitHub 1.0.1 tag, rev fd94d53
+  * control:  add libyaml-cpp-dev for v. 1.0
+  * Update patches and rules for relocated init scripts
+  * Remove obsolete patch applied upstream
+  * Fix path of NEWS file
+  * .gitignore package build artifacts
+
+ -- John Morris <john@zultron.com>  Thu, 08 Nov 2018 15:53:48 +0800
+
 thinkfan (0.9.3-2) unstable; urgency=medium
 
   * call update-rc.d thinkfan disable on fresh installs (Closes: #758579)
@@ -167,7 +178,7 @@ thinkfan (0.6~rc1-1) unstable; urgency=low
 
   * New upstream release
     + Includes the "pulsing-fan workaround".
-      Closes: #546762 
+      Closes: #546762
   * debian/README.Debian, debian/thinkfan.default:
     + Describe necessity for fan_control=1 for thinkpad_acpi.
       Closes: #547701
