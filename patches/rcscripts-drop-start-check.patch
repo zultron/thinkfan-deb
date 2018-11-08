@@ -1,7 +1,7 @@
-diff --git a/rcscripts/thinkfan.default b/rcscripts/thinkfan.default
-index e8f43ad..dd43d31 100644
---- a/rcscripts/thinkfan.default
-+++ b/rcscripts/thinkfan.default
+Index: thinkfan/rcscripts/sysvinit/thinkfan.default
+===================================================================
+--- thinkfan.orig/rcscripts/sysvinit/thinkfan.default
++++ thinkfan/rcscripts/sysvinit/thinkfan.default
 @@ -1,8 +1,2 @@
 -# Should thinkfan be started automatically on boot?
 -# Only say "yes" when you know what you are doing, have configured
@@ -11,10 +11,10 @@ index e8f43ad..dd43d31 100644
 -
  # Additional startup parameters
  DAEMON_ARGS="-q"
-diff --git a/rcscripts/thinkfan.init b/rcscripts/thinkfan.init
-index 01f74b4..6361421 100644
---- a/rcscripts/thinkfan.init
-+++ b/rcscripts/thinkfan.init
+Index: thinkfan/rcscripts/sysvinit/thinkfan.init
+===================================================================
+--- thinkfan.orig/rcscripts/sysvinit/thinkfan.init
++++ thinkfan/rcscripts/sysvinit/thinkfan.init
 @@ -22,7 +22,6 @@ DAEMON_ARGS="-q"
  # This one is compiled-in, you can't change it here!
  PIDFILE=/var/run/$NAME.pid
