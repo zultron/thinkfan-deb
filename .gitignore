@@ -1,0 +1,6 @@
+/debhelper-build-stamp
+/thinkfan.debhelper.log
+/thinkfan/
+/files
+/*.debhelper
+/thinkfan.substvars
