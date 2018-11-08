@@ -2,13 +2,12 @@ Index: thinkfan/rcscripts/systemd/thinkfan.service
 ===================================================================
 --- thinkfan.orig/rcscripts/systemd/thinkfan.service
 +++ thinkfan/rcscripts/systemd/thinkfan.service
-@@ -3,7 +3,8 @@ Description=Thinkfan, the minimalist fan
+@@ -3,7 +3,7 @@ Description=Thinkfan, the minimalist fan
  
  [Service]
  Type=forking
 -ExecStart=/usr/local/sbin/thinkfan $THINKFAN_ARGS
-+EnvironmentFile=-/etc/default/thinkfan
-+ExecStart=/usr/sbin/thinkfan $DAEMON_ARGS
++ExecStart=/usr/sbin/thinkfan $THINKFAN_ARGS
  PIDFile=/run/thinkfan.pid
  ExecReload=/bin/kill -HUP $MAINPID
  

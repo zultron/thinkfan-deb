@@ -1,2 +1,2 @@
 rcscripts-drop-start-check.patch
-rcscripts-load-defaults-for-systemd.patch
+rcscripts-path.patch
