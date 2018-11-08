@@ -1,3 +1,2 @@
-cmake-man.patch
 rcscripts-drop-start-check.patch
 rcscripts-load-defaults-for-systemd.patch
